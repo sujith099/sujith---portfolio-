@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark-purple">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banavath Sujith | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Bar -->
+    <header class="header-bar" role="banner">
+        <div class="container">
+            <a href="javascript:void(0)" class="logo" aria-label="Portfolio Home">BS</a>
+            <div class="header-controls">
+                <button class="auto-cycle-toggle" id="autoCycleToggle" aria-label="Toggle automatic theme cycling">
+                    <span class="emoji">⏸️</span> Pause
+                </button>
+                <div class="theme-selector">
+                    <button class="theme-toggle" aria-label="Change theme" aria-expanded="false">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/>
+                        </svg>
+                    </button>
+                    <div class="theme-dropdown">
+                        <div class="theme-option" data-theme="dark">
+                            <div class="theme-preview">
+                                <div class="theme-color" style="background: #0a0a0a;"></div>
+                                <div class="theme-color" style="background: #8b5cf6;"></div>
+                                <div class="theme-color" style="background: #1a1a1a;"></div>
+                            </div>
+                            <span>Dark Purple</span>
+                        </div>
+                        <div class="theme-option" data-theme="light">
+                            <div class="theme-preview">
+                                <div class="theme-color" style="background: #ffffff;"></div>
+                                <div class="theme-color" style="background: #6366f1;"></div>
+                                <div class="theme-color" style="background: #f8fafc;"></div>
+                            </div>
+                            <span>Light Blue</span>
+                        </div>
+                        <div class="theme-option" data-theme="ocean">
+                            <div class="theme-preview">
+                                <div class="theme-color" style="background: #0f172a;"></div>
+                                <div class="theme-color" style="background: #0ea5e9;"></div>
+                                <div class="theme-color" style="background: #1e293b;"></div>
+                            </div>
+                            <span>Ocean Blue</span>
+                        </div>
+                        <div class="theme-option" data-theme="forest">
+                            <div class="theme-preview">
+                                <div class="theme-color" style="background: #0f1419;"></div>
+                                <div class="theme-color" style="background: #10b981;"></div>
+                                <div class="theme-color" style="background: #1f2937;"></div>
+                            </div>
+                            <span>Forest Green</span>
+                        </div>
+                        <div class="theme-option" data-theme="sunset">
+                            <div class="theme-preview">
+                                <div class="theme-color" style="background: #1a1a1a;"></div>
+                                <div class="theme-color" style="background: #f59e0b;"></div>
+                                <div class="theme-color" style="background: #292524;"></div>
+                            </div>
+                            <span>Sunset Orange</span>
+                        </div>
+                    </div>
+                </div>
+                <nav role="navigation" aria-label="Main navigation">
+                    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                        ☰
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="#about" aria-label="About section">About</a></li>
+                        <li><a href="#internships" aria-label="Internships section">Internships</a></li>
+                        <li><a href="#skills" aria-label="Skills section">Skills</a></li>
+                        <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                        <li><a href="#education" aria-label="Education section">Education</a></li>
+                        <li><a href="#certifications" aria-label="Certifications section">Certifications</a></li>
+                        <li><a href="#achievements" aria-label="Achievements section">Achievements</a></li>
+                        <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+
+                <h1>Banavath Sujith</h1>
+                <p class="tagline">Physics Education Student | 23PH10012 | Full Stack Developer</p>
+                <p class="description">
+                    B.S. in Physics Education at IIT Kharagpur (Class of 2027). Passionate about web development, 
+                    AI/ML, and creating innovative solutions that bridge technology and education.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button cta-primary">View My Work</a>
+                    <a href="#contact" class="cta-button cta-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>
+                </svg>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="container content-sections">
+        <!-- About Me Section -->
+        <section class="section about" id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a B.S. Physics Education student at IIT Kharagpur (Class of 2027) with a passion for technology and innovation. 
+                My academic journey combines physics fundamentals with extensive programming experience across web development, 
+                AI/ML, and mobile app development. I've completed coursework in Programming and Data Structures, Web Technologies, 
+                Database Management Systems, Object-Oriented Programming, Android Development, Artificial Intelligence, and Machine Learning.
+            </p>
+            <p>
+                Beyond academics, I'm an active member of Shaurya (IIT Kharagpur's inter-college fest) design team and a dedicated 
+                NSO Volleyball player representing the institute. My diverse project portfolio spans from responsive web applications 
+                to AI-powered systems, reflecting my commitment to bridging technology with real-world solutions.
+            </p>
+        </section>
+
+        <!-- Internships Section -->
+        <section class="section internships" id="internships">
+            <h2>Internships</h2>
+            <div class="internships-grid">
+                <div class="internship-card">
+                    <h3>Computer Vision Intern – Infestation Detection</h3>
+                    <span class="org">Teal Leaf</span>
+                    <p>
+                        Developed computer vision pipelines to detect leaf infestations using image processing and machine learning techniques. 
+                        Implemented data preprocessing, augmentation, and labeling workflows to improve model accuracy on real-world leaf images. 
+                        Collaborated with a small engineering team to integrate detection results into a user-facing dashboard for monitoring plant health.
+                    </p>
+                </div>
+                <div class="internship-card">
+                    <h3>Frontend Web Developer</h3>
+                    <span class="org">Dance4You Studio</span>
+                    <p>
+                        Built a responsive booking website for dance classes and events using React, HTML, CSS, and JavaScript. 
+                        Integrated schedules, event pages, and contact forms to streamline class discovery and studio inquiries. 
+                        Optimized page performance and UI/UX for mobile users, improving session experience and engagement.
+                    </p>
+                </div>
+                <div class="internship-card">
+                    <h3>Frontend Developer Intern</h3>
+                    <span class="org">Valura AI</span>
+                    <p>
+                        Developed frontend interfaces for AI-driven web applications using React and modern JavaScript. 
+                        Consumed REST APIs and displayed analytics, dashboards, and AI outputs with reusable UI components. 
+                        Worked closely with designers and backend engineers to ship features, fix UI bugs, and improve usability.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3><span class="skill-icon">💻</span>Programming Languages</h3>
+                    <p>Core programming languages and markup technologies</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Dart</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🌐</span>Web Development</h3>
+                    <p>Frontend and backend web technologies</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">📱</span>Mobile & Database</h3>
+                    <p>Mobile app development and database management</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Android Studio</span>
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Authentication</span>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3><span class="skill-icon">🤖</span>AI/ML & Tools</h3>
+                    <p>Artificial intelligence, machine learning, and development tools</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">NLP</span>
+                        <span class="skill-tag">Web Speech API</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Vercel</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Typing & Coding Practice Website</h3>
+                    <p>Built using Firebase Studio to track WPM, accuracy, and error rate in real-time with comprehensive performance analytics.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Real-time Analytics</span>
+                        <span class="tech-tag">Performance Tracking</span>
+                    </div>
+                    <a href="https://typing-practice-pro-pwma.vercel.app" class="demo-button" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>E-Commerce Frontend Website</h3>
+                    <p>Created a complete e-commerce frontend with product cards, shopping cart UI, and total calculation functionality using modern web technologies.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">GitHub</span>
+                    </div>
+                    <a href="https://sujith099.github.io/E-commerce-Frontend-Website" class="demo-button" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>QR Code Generator Tool</h3>
+                    <p>Built with HTML, CSS, JavaScript, and qrcode.js for real-time QR generation and image downloads.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">qrcode.js</span>
+                    </div>
+                    <a href="https://sujith099.github.io/QR-code-2" class="demo-button" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Voice Command Web App</h3>
+                    <p>Developed with JavaScript and Web Speech API to capture voice input and trigger browser action.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Web Speech API</span>
+                        <span class="tech-tag">Voice Input</span>
+                        <span class="tech-tag">Browser Actions</span>
+                    </div>
+                    <a href="https://sujith099.github.io/Voice-Command-Web-App" class="demo-button" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather App</h3>
+                    <p>Developed using OpenWeather API and Fetch to display real-time location-based weather data with responsive UI design.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">OpenWeather API</span>
+                        <span class="tech-tag">Fetch API</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <a href="https://sujith099.github.io/Weather-App" class="demo-button" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-card">
+                    <h3>AI Voice Assistant (Mini Project)</h3>
+                    <p>An AI Voice Assistant with SpeechRecognition API to trigger web actions based on voice commands.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">SpeechRecognition API</span>
+                        <span class="tech-tag">Voice Commands</span>
+                        <span class="tech-tag">Web Actions</span>
+                    </div>
+                    <a href="https://sujith099.github.io/Marina---AI-Voice-Assistant" class="demo-button" target="_blank">Live Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education" id="education">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>B.S. in Physics Education</h3>
+                    <p><strong>IIT Kharagpur</strong> | 2023 - 2027</p>
+                    <p>Student ID: 23PH10012 | CGPA: 6.64/10</p>
+                    <p>Coursework: Programming & Data Structures, Web Technologies, Database Management, OOP, Android Development, AI/ML, Operating Systems, Computer Networks</p>
+                </div>
+                <div class="education-item">
+                    <h3>Intermediate (12th Grade)</h3>
+                    <p><strong>Sri Chaitanya Junior College</strong> | 2021 - 2023</p>
+                    <p>TSBIE Board, Telangana | Marks: 83.3%</p>
+                </div>
+                <div class="education-item">
+                    <h3>Secondary School (10th Grade)</h3>
+                    <p><strong>Victory High School</strong> | 2021</p>
+                    <p>Nizamabad, Telangana | CGPA: 9.8/10</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section certifications" id="certifications">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <h3>Master C++ for Competitive Coding</h3>
+                    <p><strong>Maang</strong> | Instructor: Vivek Gupta | April 2025</p>
+                </div>
+                <div class="cert-item">
+                    <h3>Master Python for Coding and Interviews</h3>
+                    <p><strong>Maang</strong> | Instructor: Vivek Gupta | April 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="section achievements" id="achievements">
+            <h2>Achievements & Leadership</h2>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <h3>🏐 Sports Excellence</h3>
+                    <p>NSO Volleyball player representing IIT Kharagpur (2023-25). Represented Nizamabad district in Telangana State Volleyball competition (2019). Secured 1st place in District Volleyball and represented at state level (2020).</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>🎨 Leadership Role</h3>
+                    <p>Associate at Shaurya - IIT Kharagpur (Sep 2023 - Present). Part of design team contributing to visual content, event branding, and promotional material for inter-college fest.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>🏃 Team Sports</h3>
+                    <p>Member of school Kho-Kho team and participated in Mandal-level Kho-Kho tournament (2019). Active in multiple sports representing school and district levels.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:banavathsujith@gmail.com">banavathsujith@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/banavath-sujith-819a0b333" target="_blank">linkedin.com/in/banavath-sujith-819a0b333</a>
+                </div>
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/sujith099?tab=repositories" target="_blank">github.com/sujith099</a>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <a href="tel:+919640256584">+91 9640256584</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
